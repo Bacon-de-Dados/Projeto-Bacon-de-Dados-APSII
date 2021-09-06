@@ -8,12 +8,12 @@ Profª Geiza Costa
 
 **Integrantes do Grupo:**
 
+Fabrizio Gomes Pereira
+
 Guilherme Kengi Matsuo Ferreira
+
+Jefferson Pereira Silva
 
 Matheus Rodrigues Monteiro
 
 Ronald da Silva
-
-Jefferson Pereira Silva
-
-Fabrizio Gomes Pereira
