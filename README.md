@@ -8,12 +8,12 @@ Profª Geiza Costa
 
 **Integrantes do Grupo:**
 
-Fabrizio Gomes Pereira
+Fabrizio Gomes Pereira - Scrum Master
 
-Guilherme Kengi Matsuo Ferreira
+Guilherme Kengi Matsuo Ferreira - Developer
 
-Jefferson Pereira Silva
+Jefferson Pereira Silva - Developer
 
-Matheus Rodrigues Monteiro
+Matheus Rodrigues Monteiro - Developer
 
-Ronald da Silva
+Ronald da Silva - Product Owner
