@@ -33,6 +33,9 @@
             outline: none;
             font-size: 15px;
         }
+        input.nomeCliente{
+            width: 100%       
+        }
 
         /* Dimenções, cor e cor das letras do button */
 
@@ -43,6 +46,11 @@
             width: 93%;
             border-radius: 10px;
             color: white;
+        }
+
+        button.cadastrarCliente{
+            width: 100%;
+            font-size: 15px;
         }
 
         /* Mudar o cursor quando passar por cima do button e trocar a cor */
