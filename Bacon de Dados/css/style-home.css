@@ -1,0 +1,53 @@
+.fonte-titulo-navbar {
+    font-family: 'Shadows Into Light', cursive;
+    color: #c83a2c !important;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.navbar-estilo {
+    color: #FFFFFF !important;
+    font-weight: bold;
+}
+
+.navbar-estilo:hover {
+    color: #c83a2c !important;
+}
+
+.imagem-carrosel-um {
+    object-fit: cover;
+    height: 400px;
+    object-position: 0 65%;
+}
+
+.imagem-carrosel {
+    object-fit: cover;
+    height: 400px;
+
+
+}
+
+.fonte-titulo-carrousel {
+    color: #000000;
+    font-family: 'Pacifico', cursive;
+}
+
+.fonte-titulo {
+    font-size: 2em;
+    color: #c83a2c;
+}
+
+.botao-cor-especial {
+
+    background-color: #c83a2c;
+    color: #FFFFFF;
+
+}
+
+.botao-cor-especial:hover {
+    color: #FFFFFF;
+}
+
+.rodape {
+    color: #FFFFFF;
+}
