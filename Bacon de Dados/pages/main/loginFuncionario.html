@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../../css/style-home.css">
-    <title>Cardápio</title>
+    <title>Login - Funcionário</title>
 </head>
 
 <body>
@@ -40,12 +40,52 @@
         </nav>
     </header>
     <main>
-        <section id="titulo">
-            <h1 class="text-center fonte-titulo cor-especial pt-5 mt-5">Cardápio</h1>
-            
+        <section class="row justify-content-center">
+            <img src="../../img/logo.svg" alt="Logo do Bacon de Dados" class="img-logo col-md-6"/>
+      
+            <form class="col-md-6 form-login pr-5">
+                <h1 class="text-center fonte-titulo cor-especial pt-5 mt-5">Login - Funcionário</h1>
+                <div class="form-group">
+                    <label for="exampleInputText1">Usuário</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Seu usuário">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div class="pt-4">
+                    <a data-toggle="modal" data-target="#modal-aviso" href="#">Esqueceu a senha?</a>
+                </div>
+            </form>
+       
+
+    </section>
+        <!--
+        <section class="login pl-4">
+            <h1 class="text-center fonte-titulo cor-especial pt-5 mt-5">Login</h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Usuário</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Seu usuário">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <div class="pt-4">
+                    <a data-toggle="modal" data-target="#modal-aviso" href="#">Esqueceu a senha?</a>
+                </div>
+            </form>
+
         </section>
+
+    -->
     </main>
-    <footer class="rodape bg-dark mt-5">
+    <footer class="rodape bg-dark">
         <div class="row text-center justify-content-center">
             <ul class="p-0 m-4 col-12 col-md-2">
                 <li>
@@ -82,8 +122,28 @@
         </div>
     </footer>
 
-    
+
     <!-- Modal -->
+    <div class="modal" tabindex="-1" role="dialog" id="modal-aviso">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Aviso!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Entre em contato com o administrador ou Gerente da unidade!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn botao-cor-especial" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
