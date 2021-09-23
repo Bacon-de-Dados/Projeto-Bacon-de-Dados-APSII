@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top mb-0">
             <a class="navbar-brand fonte-titulo-navbar" href="#">Bacon de Dados</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,9 +40,472 @@
         </nav>
     </header>
     <main>
-        <section id="titulo">
-            <h1 class="text-center fonte-titulo cor-especial pt-5 mt-5">Cardápio</h1>
-            
+        <section id="categorias" class="pt-5 pb-2 mb-2 mt-4">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-categorias">
+                <a class="navbar-brand fonte-titulo-navbar" href="#"></a>
+                <button class="navbar-toggler navbar-toggler-categorias" type="button" data-toggle="collapse"
+                    data-target="#navBar-categorias" aria-controls="navBar-categorias" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navBar-categorias">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link navbar-estilo active" href="#">Combos <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link navbar-estilo" href="#">Lanches</a>
+                        <a class="nav-item nav-link navbar-estilo" href="#">Acompanhamentos</a>
+                        <a class="nav-item nav-link navbar-estilo" href="#">Bebidas</a>
+                        <a class="nav-item nav-link navbar-estilo" href="#">Sobremesas</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="titulo" id="combos">
+            <h1 class="text-center fonte-titulo cor-especial pt-3">Combos</h1>
+        </section>
+        <section class="container-fluid bg-light">
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+        <section class="titulo" id="lanches">
+            <h1 class="text-center fonte-titulo cor-especial pt-3">Lanches</h1>
+        </section>
+        <section class="container-fluid bg-light">
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+
+
+        </section>
+        <section class="titulo">
+            <h1 class="text-center fonte-titulo cor-especial pt-3">Acompanhamentos</h1>
+        </section>
+        <section class="container-fluid bg-light" id="acompanhamentos">
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/fritas.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">Fritas grande</h5>
+                        <p class="card-text">Porção de fritas grandes
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/fritas.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">Fritas média</h5>
+                        <p class="card-text">Porção de fritas média
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/fritas.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">Fritas pequena</h5>
+                        <p class="card-text">Porção de fritas pequena
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/mandioquinha-frita.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">Mandioquinha frita</h5>
+                        <p class="card-text">Porção de mandioquinha frita
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/frango-a-passarinho.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">Frango à passarinho</h5>
+                        <p class="card-text">Porção de frango à passarinho.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+
+
+        </section>
+        <section class="titulo">
+            <h1 class="text-center fonte-titulo cor-especial pt-3">Bebidas</h1>
+        </section>
+        <section class="container-fluid bg-light" id="bebidas">
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/coca-cola-2lts.jpeg" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">Coca cola</h5>
+                        <p class="card-text">Coca cola 2 litros</p>
+                        <p class="card-text">Valor: R$12,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+        <section class="titulo">
+            <h1 class="text-center fonte-titulo cor-especial pt-3">Sobremesas</h1>
+        </section>
+        <section class="container-fluid bg-light" id="sobremesas">
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="row justify-content-center">
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela de mingau com kiwi, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Salada com fritas</h5>
+                        <p class="card-text">Hambúrguer, queijo prato, tomate, alface e maionese no Pão de Hambúrguer!
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+
+                <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
+                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                        alt="tigela com salada de abacate, vista superior">
+                    <div class="card-body">
+                        <h5 class="card-title">X-Bacon com Fritas</h5>
+                        <p class="card-text">Hambúrguer de 150g, bacon, tomate, cebola e queijo!
+                            Acompanha Fritas.
+                        </p>
+                        <p class="card-text">Valor: R$30,00</p>
+
+                        <a href="#" class="btn botao-cor-especial">Adicionar </a>
+                    </div>
+                </article>
+            </div>
+
+
+
         </section>
     </main>
     <footer class="rodape bg-dark mt-5">
@@ -82,7 +545,7 @@
         </div>
     </footer>
 
-    
+
     <!-- Modal -->
     <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
