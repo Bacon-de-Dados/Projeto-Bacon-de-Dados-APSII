@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/style-home.css">
+    <title>Cadastro de Fornecedores</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+            <a class="navbar-brand fonte-titulo-navbar" href="#">Gerência</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end pl-2" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link navbar-estilo" href="meuUsuario.html">Meu usuário <span class="sr-only">(Página
+                                atual)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-estilo" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Funcionários
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="cadastrarFuncionario.html">Cadastrar Funcionário</a>
+                            <a class="dropdown-item" href="alterarFuncionario.html">Alterar Funcionário</a>
+                            <a class="dropdown-item" href="consultarFuncionario.html">Consultar Funcionário</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-estilo" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Estoque
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Incluir Produto</a>
+                            <a class="dropdown-item" href="#">Alterar Produto</a>
+                            <a class="dropdown-item" href="#">Consultar Estoque</a>
+                            
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle navbar-estilo" href="#" id="navbarDropdownMenuLink"
+                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fornecedor
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="cadastrarFornecedor.html">Cadastrar Fornecedor</a>
+                            <a class="dropdown-item" href="alterarFornecedor.html">Alterar Fornecedor</a>
+                            <a class="dropdown-item" href="consultarFornecedor.html">Consultar Fornecedor</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item pr-5">
+                        <a class="nav-link navbar-estilo" href="#">Sair</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="pt-5  pl-5 pr-5">
+            <h1 class="text-center fonte-titulo cor-especial pt-5 pb-3">Cadastrar Fornecedor</h1>
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Razão Social</label>
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="Razão Social" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe a Razão Social do fornecedor!</div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">CNPJ</label>
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="CNPJ" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe o CNPJ do fornecedor!</div>
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Inscrição Estadual</label>
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="Inscrição Estadual" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe a Inscrição Estadual do fornecedor!</div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Pessoa de contato</label>
+                        <input type="text" class="form-control" id="inputPassword4" placeholder="Pessoa de contato na empresa" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe o nome da pessoa de contato no fornecedor!</div>
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Telefone fixo</label>
+                        <input type="tel" class="form-control" id="inputEmail4" placeholder="Ex: 1122224444" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe o telefone do fornecedor!</div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputPassword4">Celular</label>
+                        <input type="tel" class="form-control" id="inputPassword4" placeholder="Ex: 11987654321">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">E-mail</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="nome@exemplo.com"
+                            required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe o e-mail do fornecedor!</div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail4">Confirmar e-mail</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Confirme o e-mail"
+                            required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, confirme o e-mail do fornecedor!</div>
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0"
+                        required>
+                    <div class="valid-feedback">Tudo certo!</div>
+                    <div class="invalid-feedback">Por favor, informe o endereço!</div>
+                </div>
+                <div class="form-group">
+                    <label for="inputAddress2">Complemento</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Doca, condomínio, etc.">
+
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">Cidade</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="Cidade do fornecedor" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe a  cidade!</div>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputEstado">Estado</label>
+                        <select id="inputEstado" class="form-control" required>
+                            <option selected>SP</option>
+                            <option>AC</option>
+                            <option>AL</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>DF</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option>MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PR</option>
+                            <option>PE</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SE</option>
+                            <option>TO</option>
+                        </select>
+                        <div class="valid-feedback">Tudo certo!</div>
+                            <div class="invalid-feedback">Por favor, selecione o estado!</div>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="inputCEP">CEP</label>
+                        <input type="text" class="form-control" id="inputCEP" placeholder="Seu Cep" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe o cep!</div>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn botao-cor-especial">Cadastrar</button>
+            </form>
+
+        </section>
+
+    </main>
+    <footer class="rodape bg-dark mt-5">
+        <div class="row text-center justify-content-center pt-4 pb-4">
+            <ul class="p-0 m-4 col-12 col-md-12">
+                <li>
+                    <p class="copyright">&copy; Copyright Bacon de Dados - 2021</p>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="../../js/index.js"></script>
+</body>
+
+</html>

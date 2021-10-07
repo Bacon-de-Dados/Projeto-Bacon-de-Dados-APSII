@@ -35,6 +35,7 @@
                     <a class="nav-item nav-link navbar-estilo" href="cadastro.html">Cadastre-se</a>
                     <a class="nav-item nav-link navbar-estilo" data-toggle="modal" data-target="#modal-contato"
                         href="#">Contato</a>
+                        
                 </div>
             </div>
         </nav>
@@ -43,18 +44,22 @@
         <section class="row justify-content-center">
             <img src="../../img/logo.svg" alt="Logo do Bacon de Dados" class="img-logo col-md-6"/>
       
-            <form class="col-md-6 form-login pr-5">
+            <form class="needs-validation col-md-6 form-login pr-5" novalidate>
                 <h1 class="text-center fonte-titulo cor-especial pt-5 mt-5">Login - Funcionário</h1>
                 <div class="form-group">
                     <label for="exampleInputText1">Usuário</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Seu usuário">
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Seu usuário" required>
+                        <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe o seu usuário!</div>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Senha</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
+                    <div class="valid-feedback">Tudo certo!</div>
+                        <div class="invalid-feedback">Por favor, informe a sua senha!</div>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn botao-cor-especial">Logar</button>
                 <div class="pt-4">
                     <a data-toggle="modal" data-target="#modal-aviso" href="#">Esqueceu a senha?</a>
                 </div>
@@ -190,6 +195,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="../../js/index.js"></script>
 </body>
 
 </html>
