@@ -21,7 +21,7 @@ import javax.sql.DataSource;
 public class BaconServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
-	@Resource(name= "jdbc/DbBacondeDados")
+	@Resource(name="jdbc/DbBacondeDados")
 	private DataSource datasource;
        
     /**
