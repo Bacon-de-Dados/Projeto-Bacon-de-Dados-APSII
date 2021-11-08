@@ -40,7 +40,7 @@ public class BaconServlet extends HttpServlet {
 		Statement myStmt = null;
 		ResultSet myRs = null;
 		
-		PrintWriter out= response.getWriter();
+		PrintWriter out = response.getWriter();
 		
 		try {
 			//conexao
