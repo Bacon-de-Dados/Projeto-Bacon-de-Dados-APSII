@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/style-home.css">
+    <link rel="stylesheet" href="css/style-home.css">
     <title>Cardápio - Bacon de Dados</title>
 </head>
 
@@ -46,7 +46,7 @@
         <section class="container-fluid bg-light">
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/combo-x-bacon.png" class="card-img-top card-posicao-imagem"
                         alt="combo do x-bacon">
                     <div class="card-body">
                         <h5 class="card-title">X-Bacon com Fritas</h5>
@@ -60,7 +60,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/combo-x-salada.png" class="card-img-top card-posicao-imagem"
                         alt="combo do x-salada">
                     <div class="card-body">
                         <h5 class="card-title">X-Salada com fritas</h5>
@@ -72,7 +72,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/x-frango-combo.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/x-frango-combo.png" class="card-img-top card-posicao-imagem"
                         alt="combo do x-frango">
                     <div class="card-body">
                         <h5 class="card-title">X-Frango com Fritas</h5>
@@ -95,7 +95,7 @@
         <section class="container-fluid bg-light">
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/xburger.jpg" class="card-img-top card-posicao-imagem" alt="X-Burguer">
+                    <img src="img/xburger.jpg" class="card-img-top card-posicao-imagem" alt="X-Burguer">
                     <div class="card-body">
                         <h5 class="card-title">X-Burguer</h5>
                         <p class="card-text">Hamburger de 150g, queijo cheddar inglês no pão brioche.
@@ -107,7 +107,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/x-frango.jpg" class="card-img-top card-posicao-imagem" alt="X-Frango">
+                    <img src="img/x-frango.jpg" class="card-img-top card-posicao-imagem" alt="X-Frango">
                     <div class="card-body">
                         <h5 class="card-title">X-Frango</h5>
                         <p class="card-text">Filé de Frango, ovo, queijo prato, tomate, alface e maionese no pão
@@ -119,7 +119,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/x-frango c catupiry.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/x-frango c catupiry.png" class="card-img-top card-posicao-imagem"
                         alt="X-Frango com catupiry">
                     <div class="card-body">
                         <h5 class="card-title">X-Frango com catupiry</h5>
@@ -134,7 +134,7 @@
 
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/x-cheddar.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/x-cheddar.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Cheddar</h5>
@@ -147,7 +147,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/xcalabresa.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/xcalabresa.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela de mingau com kiwi, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">X-Calabresa</h5>
@@ -160,7 +160,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/burger-x-catupa.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/burger-x-catupa.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">X-Catupiry Angus</h5>
@@ -182,7 +182,7 @@
         <section class="container-fluid bg-light" id="acompanhamentos">
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/fritas.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/fritas.png" class="card-img-top card-posicao-imagem"
                         alt="Porção de fritas pequena">
                     <div class="card-body">
                         <h5 class="card-title">Fritas pequena</h5>
@@ -195,7 +195,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/fritas.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/fritas.png" class="card-img-top card-posicao-imagem"
                         alt="Porção de fritas média">
                     <div class="card-body">
                         <h5 class="card-title">Fritas média</h5>
@@ -207,7 +207,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/fritas.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/fritas.png" class="card-img-top card-posicao-imagem"
                         alt="Porção de fritas grande">
                     <div class="card-body">
                         <h5 class="card-title">Fritas grande</h5>
@@ -222,7 +222,7 @@
 
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/mandioquinha-frita-2.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/mandioquinha-frita-2.png" class="card-img-top card-posicao-imagem"
                         alt="Porção de mandioquinha média">
                     <div class="card-body">
                         <h5 class="card-title">Mandioquinha frita média</h5>
@@ -235,7 +235,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/mandioquinha-frita-2.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/mandioquinha-frita-2.png" class="card-img-top card-posicao-imagem"
                         alt="Porção de mandioquinha grande">
                     <div class="card-body">
                         <h5 class="card-title">Mandioquinha frita grande</h5>
@@ -248,7 +248,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/frango-a-passarinho.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/frango-a-passarinho.png" class="card-img-top card-posicao-imagem"
                         alt="Porção de frango à passarinho">
                     <div class="card-body">
                         <h5 class="card-title">Frango à passarinho</h5>
@@ -271,7 +271,7 @@
         <section class="container-fluid bg-light" id="bebidas">
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/coca-cola-2lts.jpeg" class="card-img-top card-posicao-imagem"
+                    <img src="img/coca-cola-2lts.jpeg" class="card-img-top card-posicao-imagem"
                         alt="refrigerante coca-cola-2lts">
                     <div class="card-body">
                         <h5 class="card-title">Coca cola</h5>
@@ -283,7 +283,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/coca-cola-600ml.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/coca-cola-600ml.png" class="card-img-top card-posicao-imagem"
                         alt="refrigerante coca-cola-600ml">
                     <div class="card-body">
                         <h5 class="card-title">Coca cola</h5>
@@ -295,7 +295,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                <img src="../../img/fanta-2lts.png" class="card-img-top card-posicao-imagem"
+                <img src="img/fanta-2lts.png" class="card-img-top card-posicao-imagem"
                         alt="refrigerante fanta-2lts">
                     <div class="card-body">
                         <h5 class="card-title">Fanta</h5>
@@ -309,7 +309,7 @@
 
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/fanta-350ml.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/fanta-350ml.jpg" class="card-img-top card-posicao-imagem"
                         alt="refrigerante fanta-2lts">
                     <div class="card-body">
                         <h5 class="card-title">Fanta</h5>
@@ -321,7 +321,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/agua-mineral.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/agua-mineral.png" class="card-img-top card-posicao-imagem"
                         alt="garrafa de água mineral">
                     <div class="card-body">
                         <h5 class="card-title">Agua mineral</h5>
@@ -333,7 +333,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/cerveja-600ml.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/cerveja-600ml.png" class="card-img-top card-posicao-imagem"
                         alt="cerveja original">
                     <div class="card-body">
                         <h5 class="card-title">Original</h5>
@@ -348,7 +348,7 @@
 
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/cerveja-350ml.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/cerveja-350ml.png" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Original lata</h5>
@@ -361,7 +361,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/guarana-2lts.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/guarana-2lts.png" class="card-img-top card-posicao-imagem"
                         alt="refrigerante guarana-2lts">
                     <div class="card-body">
                         <h5 class="card-title">Guaraná </h5>
@@ -373,7 +373,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/guarana-350ml.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/guarana-350ml.png" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Guaraná</h5>
@@ -393,7 +393,7 @@
         <section class="container-fluid bg-light" id="sobremesas">
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/sorvete-chocolate.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/sorvete-chocolate.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Sorvete de chocolate</h5>
@@ -406,7 +406,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/sorvete-flocos.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/sorvete-flocos.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela de mingau com kiwi, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Sorvete de flocos</h5>
@@ -418,7 +418,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/sorvete-de-chantilly.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/sorvete-de-chantilly.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Sorvete de chantily</h5>
@@ -433,7 +433,7 @@
 
             <div class="row justify-content-center">
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/milk-shake.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/milk-shake.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Milk-shake</h5>
@@ -446,7 +446,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/pudim-de-leite-condensado.png" class="card-img-top card-posicao-imagem"
+                    <img src="img/pudim-de-leite-condensado.png" class="card-img-top card-posicao-imagem"
                         alt="tigela de mingau com kiwi, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Pudim</h5>
@@ -458,7 +458,7 @@
                 </article>
 
                 <article class="card borda-cor-especial card-largura p-0 m-4 col-12 col-md-4">
-                    <img src="../../img/petit-gateau.jpg" class="card-img-top card-posicao-imagem"
+                    <img src="img/petit-gateau.jpg" class="card-img-top card-posicao-imagem"
                         alt="tigela com salada de abacate, vista superior">
                     <div class="card-body">
                         <h5 class="card-title">Petit Gateau</h5>

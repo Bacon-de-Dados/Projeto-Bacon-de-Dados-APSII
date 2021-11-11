@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/style-home.css">
+    <link rel="stylesheet" href="css/style-home.css">
     <title>Login Funcionario- Bacon de Dados</title>
 </head>
 
@@ -20,7 +20,7 @@
    <jsp:include page="header.html"></jsp:include>
     <main>
         <section class="row justify-content-center">
-            <img src="../../img/logo.svg" alt="Logo do Bacon de Dados" class="img-logo col-md-6"/>
+            <img src="img/logo.svg" alt="Logo do Bacon de Dados" class="img-logo col-md-6"/>
       
             <form class="col-md-6 form-login pr-5">
                 <h1 class="text-center fonte-titulo cor-especial pt-5 mt-5">Login - Funcionário</h1>

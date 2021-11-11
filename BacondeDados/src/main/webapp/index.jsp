@@ -9,10 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/style-home.css">
+    <link rel="stylesheet" href="css/style-home.css">
     <title>Home</title>
 </head>
 
@@ -29,19 +29,19 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../../img/balcao.svg" class="d-block w-100 imagem-carrosel-um" alt="...">
+                        <img src="img/balcao.svg" class="d-block w-100 imagem-carrosel-um" alt="...">
                         <div class="carousel-caption d-none d-md-block h-50">
                             <h1 class="fonte-titulo-carrousel display-4">Ambiente descontraido!</h1>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../img/lanche.svg" class="d-block w-100 imagem-carrosel" alt="...">
+                        <img src="img/lanche.svg" class="d-block w-100 imagem-carrosel" alt="...">
                         <div class="carousel-caption d-none d-md-block h-50">
                             <h1 class="fonte-titulo-carrousel display-4">Lanches deliciosos!</h1>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="../../img/happy-hour.svg" class="d-block w-100 imagem-carrosel" alt="...">
+                        <img src="img/happy-hour.svg" class="d-block w-100 imagem-carrosel" alt="...">
                         <div class="carousel-caption d-none d-md-block h-50">
                             <h1 class="fonte-titulo-carrousel display-4">Aproveite o Happy Hour conosco!</h1>
                         </div>
